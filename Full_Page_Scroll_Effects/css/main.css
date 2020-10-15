@@ -18,39 +18,49 @@ html {
     position: relative;
     width: 100%;
     height: 100%;
-    background-blend-mode: multiply;
     scroll-snap-align: start;
+    transition: 0.5s all;
 }
 .container .section:nth-child(1){
-background: url('../images/bg_1.jpg'), #f00;
-background-size: cover;
 background-attachment: fixed;
+background-image: linear-gradient(to right, rgba(242, 109, 131, 0.6), rgba(109, 179, 242, .6)), url('../images/bg_1.jpg');
+background-size: cover;
+background-position: center 100% 100%;
+background-repeat: no-repeat;
 }
 .container .section:nth-child(2){
-background: url('../images/bg_2.jpg'), #0f0;
-background-size: cover;
-background-attachment: fixed;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, rgba(98, 161, 16, 0.6), rgba(109, 179, 242, .6)), url('../images/bg_2.jpg');
+    background-size: cover;
+    background-position: center 100% 100%;
+    background-repeat: no-repeat;
 }
 .container .section:nth-child(3){
-    background: url('../images/bg_3.jpg'), #ff0;
-    background-size: cover;
     background-attachment: fixed;
+    background-image: linear-gradient(to right, rgba(185, 197, 9, 0.6), rgba(109, 179, 242, .6)), url('../images/bg_3.jpg');
+    background-size: cover;
+    background-position: center 100% 100%;
+    background-repeat: no-repeat;
 }
 .container .section:nth-child(4){
-    background: url('../images/bg_4.jpg'), #0ff;
-    background-size: cover;
     background-attachment: fixed;
+    background-image: linear-gradient(to right, rgba(19, 159, 194, 0.596), rgba(115, 112, 160, 0.6)), url('../images/bg_4.jpg');
+    background-size: cover;
+    background-position: center 100% 100%;
+    background-repeat: no-repeat;
     }
     .container .section:nth-child(5){
-    background: url('../images/bg_5.jpg'), #00f;
-    background-size: cover;
-    background-attachment: fixed;
+        background-attachment: fixed;
+        background-image: linear-gradient(to right, rgba(218, 26, 42, 0.6), rgba(109, 179, 242, .6)), url('../images/bg_5.jpg');
+        background-size: cover;
+        background-position: center 100% 100%;
+        background-repeat: no-repeat;
     }
     .container .section:nth-child(6){
-        background: url('../images/bg_6.jpg'), #f0f;
-        background-size: cover;
         background-attachment: fixed;
-        background-position: center;
+        background-image: linear-gradient(to right, rgba(216, 22, 206, 0.6), rgba(109, 179, 242, .6)), url('../images/bg_6.jpg');
+        background-size: cover;
+        background-position: center 100% 100%;
         background-repeat: no-repeat;
     }
 .container .section .content{
