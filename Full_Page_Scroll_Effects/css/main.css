@@ -20,7 +20,6 @@ html {
     height: 100%;
     background-blend-mode: multiply;
     scroll-snap-align: start;
-    transition: 0.5s all;
 }
 .container .section:nth-child(1){
 background: url('../images/bg_1.jpg'), #f00;
